@@ -82,8 +82,8 @@ print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [�
 \033[1;93m [¤] \x1b[0;31mTOOLS BY USAMA TRICKER\x1b[1;96m  [¤] \x1b[0;31mYOUTUBE  : USAMA TRICKER\x1b[0;31m"""
 print " \x1b[1;93m⚔══════════════════════════☠═══════════════════════════⚔"
 
-CorrectUsername = "USAMA"
-CorrectPassword = "TRICKER"
+CorrectUsername = "MR"
+CorrectPassword = "RAWAND"
 
 loop = 'true'
 while (loop == 'true'):
@@ -95,10 +95,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "yang bener dong"
-            os.system('xdg-open https://wa.me/6285691015635')
+            os.system('xdg-open https://www.youtube.com/channel/UCwq6RUSe8gO4fUlXxX1HUQA')
     else:
         print "salah sayang!"
-        os.system('xdg-open https://wa.me/6285691015635')
+        os.system('xdg-open https://www.youtube.com/channel/UCwq6RUSe8gO4fUlXxX1HUQA')
 
 def login():
 	os.system('clear')
