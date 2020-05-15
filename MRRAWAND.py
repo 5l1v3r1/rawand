@@ -48,12 +48,12 @@ def jalan(z):
 
 #### LOGO ####
 logo = """
-\033[0;39m░█████╗░██████╗░░█████╗░██╗███╗░░██╗
-\033[0;39m██╔══██╗██╔══██╗██╔══██╗██║████╗░██║
-\033[0;39m███████║██████╔╝███████║██║██╔██╗██║
-\033[0;39m██╔══██║██╔══██╗██╔══██║██║██║╚████║
-\033[0;39m██║░░██║██║░░██║██║░░██║██║██║░╚███║
-\033[0;39m╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝
+\033[0;39m  ¤*¨¨*¤.¸¸.¤*¨¨*¤.¸¸.¤*¨¨\
+\033[0;39m  \RAWAND   دنەوەڕ     　   \
+\033[0;39m  .\¤*¨¨*¤.¸¸.¤*¨¨*¤.¸¸.¤*¨¨
+\033[0;39m  튠/
+\033[0;39m  /▌
+\033[0;39m  / \
 \033[0;39m╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
 \033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|USAMA.TRICKER\033[0;31m║
 \033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/USAMATRICKER\033[0m \033[0;31m║
@@ -95,10 +95,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "yang bener dong"
-            os.system('xdg-open https://wa.me/6285691015635')
+            os.system('xdg-open https://www.youtube.com/channel/UCwq6RUSe8gO4fUlXxX1HUQA')
     else:
         print "salah sayang!"
-        os.system('xdg-open https://wa.me/6285691015635')
+        os.system('xdg-open https://www.youtube.com/channel/UCwq6RUSe8gO4fUlXxX1HUQA')
 
 def login():
 	os.system('clear')
