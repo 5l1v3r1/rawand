@@ -98,8 +98,7 @@ while (loop == 'true'):
             os.system('xdg-open https://www.youtube.com/channel/UCwq6RUSe8gO4fUlXxX1HUQA')
     else:
         print "salah sayang!"
-        os.system('xdg-open https://www.youtube.com/channel/UCwq6RUSe8gO4fUlXxX1HUQA')
-
+            os.system('xdg-open https://www.youtube.com/channel/UCwq6RUSe8gO4fUlXxX1HUQA')
 def login():
 os.system('clear')
 try:
