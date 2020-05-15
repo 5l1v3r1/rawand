@@ -48,22 +48,22 @@ def jalan(z):
 
 #### LOGO ####
 logo = """
-\033[0;39m░█████╗░██████╗░░█████╗░██╗███╗░░██╗
-\033[0;39m██╔══██╗██╔══██╗██╔══██╗██║████╗░██║
-\033[0;39m███████║██████╔╝███████║██║██╔██╗██║
-\033[0;39m██╔══██║██╔══██╗██╔══██║██║██║╚████║
-\033[0;39m██║░░██║██║░░██║██║░░██║██║██║░╚███║
-\033[0;39m╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝
+\033[0;39m  ▒▒▒▒▒▒▒▒RAWAND▒▒▒▒▒▒▒▒
+\033[0;39m  ▒▒▄▄▄▒▒▒█▒▒▒▒▄▒▒▒▒▒▒▒▒
+\033[0;39m  ▒█▀█▀█▒█▀█▒▒█▀█▒▄███▄▒
+\033[0;39m  ░█▀█▀█░█▀██░█▀█░█▄█▄█░
+\033[0;39m  ░█▀█▀█░█▀████▀█░█▄█▄█░
+\033[0;39m  ████████▀█████████████
 \033[0;39m╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
-\033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|USAMA.TRICKER\033[0;31m║
-\033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/USAMATRICKER\033[0m \033[0;31m║
-\033[0;39m║\033[0;36m* \033[0;32mWhatsApp \033[1;32m: \033[1;32m+1 (302) 306-1248\033[0;31m║
+\033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|دنەوەڕ RAWAND\033[0;31m║
+\033[0;39m║\033[1;33m* \033[1;33 RAWAND  \033[1;33m : \033[1;33m\033[4m❤💜❤💜\033[0m \033[0;31m║
+\033[0;39m║\033[0;36m* \033[0;32You Tube \033[1;32m: \033[1;32m(MRRAWAND)[0;31m║
 \033[0;34m╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╝"""
 
 def tik():
-	titik = ['.   ','..  ','... ']
-	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+titik = ['.   ','..  ','... ']
+for o in titik:
+print("\r\033[1;96m[●] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -77,13 +77,13 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print "\x1b[0;31m⚔═══════════════════════════☠═══════════════════════════⚔"
-print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [¤] \x1b[0;31mWHATSAPP : +1 (302) 306-1248\x1b[1;96m  
-\033[1;93m [¤] \x1b[0;31mSTAY HOME\x1b[1;96m      [¤] \x1b[0;31mFACEBOOK : TERMUX TOOLS\x1b[1;96m  
-\033[1;93m [¤] \x1b[0;31mTOOLS BY USAMA TRICKER\x1b[1;96m  [¤] \x1b[0;31mYOUTUBE  : USAMA TRICKER\x1b[0;31m"""
+print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [¤] \x1b[0;31mYOU TUBE : MR RAWAND\x1b[1;96m  
+\033[1;93m [¤] \x1b[0;31mSTAY HOME\x1b[1;96m      [¤] \x1b[0;31mFACEBOOK : TERMUX TOOLS\x1b[1;96m  
+\033[1;93m [¤] \x1b[0;31mTOOLS BY RAWAND\x1b[1;96m  [¤] \x1b[0;31mYOUTUBE  : MR RAWAND\x1b[0;31m"""
 print " \x1b[1;93m⚔══════════════════════════☠═══════════════════════════⚔"
 
-CorrectUsername = "USAMA"
-CorrectPassword = "TRICKER"
+CorrectUsername = "MR"
+CorrectPassword = "MRRAWAND"
 
 loop = 'true'
 while (loop == 'true'):
