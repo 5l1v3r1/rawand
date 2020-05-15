@@ -87,14 +87,14 @@ CorrectPassword = "MRRAWAND"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[0;31mUSERNAME TOOLS INI \x1b[1;96m>>>> ")
-    if (username == CorrectUsername):
-    password = raw_input("\033[1;96m[☆] \x1b[0;31mPASSWORD TOOLS INI \x1b[1;96m>>>> ")
-        if (password == CorrectPassword):
-            print "Logged in successfully as " + username
-            loop = 'false'
-        else:
-            print "yang bener dong"
+        username = raw_input("\033[1;96m[☆] \x1b[0;31mUSERNAME TOOLS INI \x1b[1;96m>>>> ")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;96m[☆] \x1b[0;31mPASSWORD TOOLS INI \x1b[1;96m>>>> ")
+        if (password == CorrectPassword):
+            print "Logged in successfully as " + username
+            loop = 'false'
+        else:
+            print "yang bener dong"
             os.system('xdg-open https://www.youtube.com/channel/UCwq6RUSe8gO4fUlXxX1HUQA')
     else:
         print "salah sayang!"
