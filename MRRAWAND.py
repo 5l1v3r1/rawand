@@ -77,7 +77,7 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print "\x1b[0;31m⚔═══════════════════════════☠═══════════════════════════⚔"
-print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [¤] \x1b[0;31mYOU TUBE : MR RAWAND\x1b[1;96m  
+print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [¤] \x1b[0;31mYOU TUBE : MR RAWAND\x1b[1;96m  
 \033[1;93m [¤] \x1b[0;31mSTAY HOME\x1b[1;96m      [¤] \x1b[0;31mFACEBOOK : TERMUX TOOLS\x1b[1;96m  
 \033[1;93m [¤] \x1b[0;31mTOOLS BY RAWAND\x1b[1;96m  [¤] \x1b[0;31mYOUTUBE  : MR RAWAND\x1b[0;31m"""
 print " \x1b[1;93m⚔══════════════════════════☠═══════════════════════════⚔"
