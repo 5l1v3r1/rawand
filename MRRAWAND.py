@@ -48,12 +48,12 @@ def jalan(z):
 
 #### LOGO ####
 logo = """
-\033[0;39m  ▒▒▒▒▒▒▒▒RAWAND▒▒▒▒▒▒▒▒
-\033[0;39m  ▒▒▄▄▄▒▒▒█▒▒▒▒▄▒▒▒▒▒▒▒▒
-\033[0;39m  ▒█▀█▀█▒█▀█▒▒█▀█▒▄███▄▒
-\033[0;39m  ░█▀█▀█░█▀██░█▀█░█▄█▄█░
-\033[0;39m  ░█▀█▀█░█▀████▀█░█▄█▄█░
-\033[0;39m  ████████▀█████████████
+\033[0;39m░█████╗░██████╗░░█████╗░██╗███╗░░██╗
+\033[0;39m██╔══██╗██╔══██╗██╔══██╗██║████╗░██║
+\033[0;39m███████║██████╔╝███████║██║██╔██╗██║
+\033[0;39m██╔══██║██╔══██╗██╔══██║██║██║╚████║
+\033[0;39m██║░░██║██║░░██║██║░░██║██║██║░╚███║
+\033[0;39m╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝
 \033[0;39m╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
 \033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|USAMA.TRICKER\033[0;31m║
 \033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/USAMATRICKER\033[0m \033[0;31m║
@@ -82,8 +82,8 @@ print  """\x1b[0;31m [¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m   [�
 \033[1;93m [¤] \x1b[0;31mTOOLS BY USAMA TRICKER\x1b[1;96m  [¤] \x1b[0;31mYOUTUBE  : USAMA TRICKER\x1b[0;31m"""
 print " \x1b[1;93m⚔══════════════════════════☠═══════════════════════════⚔"
 
-CorrectUsername = "MR"
-CorrectPassword = "RAWAND"
+CorrectUsername = "USAMA"
+CorrectPassword = "TRICKER"
 
 loop = 'true'
 while (loop == 'true'):
@@ -95,10 +95,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "yang bener dong"
-            os.system('xdg-open https://www.youtube.com/channel/UCwq6RUSe8gO4fUlXxX1HUQA')
+            os.system('xdg-open https://wa.me/6285691015635')
     else:
         print "salah sayang!"
-        os.system('xdg-open https://www.youtube.com/channel/UCwq6RUSe8gO4fUlXxX1HUQA')
+        os.system('xdg-open https://wa.me/6285691015635')
 
 def login():
 	os.system('clear')
